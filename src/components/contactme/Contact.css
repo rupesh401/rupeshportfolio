@@ -1,0 +1,64 @@
+.contact {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+
+}
+
+.contact_left {
+    display: block;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.contactleft_item {
+    background-color: rgb(51, 46, 46);
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.contactleft_title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: .5em 0;
+}
+
+.contactleft_desc {
+    font-size: 18px;
+}
+
+.contact_right {
+    
+}
+
+.contact_form {
+    display: block;
+    width: 100%;
+}
+
+.form_item input {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 5px;
+    height:300px;
+}

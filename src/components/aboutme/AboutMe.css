@@ -1,0 +1,71 @@
+.aboutme_head {
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
+
+.aboutus_image {
+    width: 300px;
+    text-align: center;
+    margin-left: 12em;
+}
+
+.aboutme_right {
+    margin-top: 4em;
+}
+
+.web_developer {
+    font-weight: bold;
+}
+
+.aboutme_first_desc {
+    font-size: 20px;
+
+}
+
+.aboutme_list {
+    display: block;
+}
+
+.aboutme_list li {
+    margin: 1em;
+}
+
+.circle_icon {
+    margin-right: 1em;
+}
+
+.detail {
+    margin-right: .5em;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 780px) {
+    .aboutme_head {
+        margin-top: 2em;
+    }
+
+    .aboutus_image {
+        margin-left: 6em;
+    }
+
+    .aboutme_right {
+        margin-top: 1em;
+    }
+
+    .aboutme_first_desc {
+        font-size: 16px;
+    }
+
+    .aboutme_list {}
+
+    .aboutme_list li {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .detail {
+        font-size: 18px;
+    }
+}

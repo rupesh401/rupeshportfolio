@@ -1,0 +1,28 @@
+.btn_download{
+    border: 2px solid #f81f4e !important;
+    width: 230px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: black;
+    padding: .5em;
+    margin-left: 1em;
+    color: white;
+    white-space: nowrap;
+    justify-content: center;
+}
+
+.btn_download:hover {
+    background-color: #f81f4e;
+}
+
+@media screen and (max-width: 780px) {
+    .container {
+        display: block;
+    }
+
+    .myimage {
+        
+    }
+}
+

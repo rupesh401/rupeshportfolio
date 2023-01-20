@@ -1,0 +1,44 @@
+.myservices {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service_list {
+    background-color: #3d3737;
+    padding: 1em;
+    width: 420px;
+    cursor: pointer;
+    transition: background 0.5s, transform 0.5s;
+}
+
+.service_list:hover {
+    background: #f81f4e;
+    transform: translateY(-10px);
+
+}
+
+.font_icon:hover {
+    background: #f81f4e;
+}
+
+.font_icon {
+    color: #f81f4e !important;
+
+}
+
+.service_list_name {
+    margin-top: .8em;
+    font-size: 20px;
+    font-weight: 600;
+
+}
