@@ -21,8 +21,9 @@
         display: block;
     }
 
-    .myimage {
-        
+    .btn_download {
+        margin-left: 0 !important;
+        margin-top: .5em;
     }
 }
 

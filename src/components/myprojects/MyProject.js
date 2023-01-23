@@ -10,6 +10,20 @@ const MyProject = () => {
       <div className="project_list">
         <div className="project">
           <img
+            src="./images/tiffinbatta.png"
+            alt="Tiffin Batta"
+            className="Project_image"
+          />
+          <div className="layer">
+            <h5 className="project_title">Tiffin Batta</h5>
+            <p>Online food delivery platform with different plans.</p>
+            <a href="https://tiffinbatta.com/">
+              <FontAwesomeIcon icon={faLink} />{" "}
+            </a>
+          </div>
+        </div>
+        <div className="project">
+          <img
             src="./images/Web_Design_4.png"
             alt="Food Lab"
             className="Project_image"
@@ -33,7 +47,7 @@ const MyProject = () => {
           <div className="layer">
             <h5 className="project_title">Pacific Resort Design</h5>
             <p>Design the website with different position.</p>
-            <a href="#">
+            <a href="https://rupeshgautam.com.np/responsive-assignment-2/">
               <FontAwesomeIcon icon={faLink} />{" "}
             </a>
           </div>
@@ -75,20 +89,6 @@ const MyProject = () => {
           <div className="layer">
             <h5 className="project_title">Food Lab (Detail Page)</h5>
             <p>Detail Page of Food Lab website.</p>
-            <a href="#">
-              <FontAwesomeIcon icon={faLink} />{" "}
-            </a>
-          </div>
-        </div>
-        <div className="project">
-          <img
-            src="./images/Web_Design_6.png"
-            alt="Food Design 4"
-            className="Project_image"
-          />
-          <div className="layer">
-            <h5 className="project_title">Personal Website</h5>
-            <p>Personal responsive website design using React.</p>
             <a href="#">
               <FontAwesomeIcon icon={faLink} />{" "}
             </a>

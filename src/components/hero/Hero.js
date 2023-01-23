@@ -6,7 +6,7 @@ import {
   faFacebookF,
   faLinkedin,
   faGithub,
-  fa
+  fa,
 } from "@fortawesome/free-brands-svg-icons";
 import { faAddressBook } from "@fortawesome/fontawesome-free-solid";
 import "../hero/Hero.css";
@@ -20,17 +20,17 @@ const Hero = () => {
             <div className="col-lg-2 social-media">
               <ul className="social-media-links">
                 <li>
-                  <a href="">
+                  <a href="https://www.facebook.com/gautam.rupesh.1/">
                     <FontAwesomeIcon icon={faFacebookF} />
                   </a>
                 </li>
                 <li>
-                  <a href="">
+                  <a href="https://www.linkedin.com/in/rupesh-gautam-745a20197/">
                     <FontAwesomeIcon icon={faLinkedin} />
                   </a>
                 </li>
                 <li>
-                  <a href="">
+                  <a href="https://github.com/rupesh401">
                     <FontAwesomeIcon icon={faGithub} />
                   </a>
                 </li>
@@ -52,7 +52,9 @@ const Hero = () => {
                 <FontAwesomeIcon icon={faAddressBook} className="px-3" />
                 Contact Me
               </button>
-              <a href="images/Resume_new.pdf" className="btn btn_download">Download Resume</a>
+              <a href="images/Resume_new.pdf" className="btn btn_download">
+                Download Resume
+              </a>
             </div>
           </div>
         </div>

@@ -53,3 +53,9 @@
     border-radius: 50%;
     text-align: center;
 }
+
+@media screen and (max-width: 780px) {
+    .project {
+        width: 100%;
+    }
+}
