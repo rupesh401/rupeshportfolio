@@ -27,6 +27,10 @@ ul li a {
     cursor: pointer;
 }
 
+ul li a:hover {
+    color: #f81f4e !important;
+}
+
 #hero {
     margin-top: 5em;
 }
@@ -44,6 +48,7 @@ ul li a {
 .position {
     font-weight: 30px;
 }
+
 .mydescription {
     font-size: 23px;
 }
@@ -62,8 +67,7 @@ ul li a {
     color: white;
 }
 
-.hero-right{
-}
+.hero-right {}
 
 .myimage {
     width: 500px;
@@ -117,7 +121,7 @@ ul li a {
         font-size: 25px;
     }
 
-    .nav-itemss  {
+    .nav-itemss {
         text-align: center;
         margin-top: 4em;
         margin-bottom: 4em;
