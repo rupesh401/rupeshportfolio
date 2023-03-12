@@ -9,7 +9,9 @@ const Navbar = () => {
   return (
     <div className="container">
       <div className="nav">
-        <h2 className="logo"><span className="diff-color">Rupesh</span> G</h2>
+        <h2 className="logo">
+          <span className="diff-color">Rupesh</span> G
+        </h2>
         <ul
           className={isMobile ? "nav-mobile-links" : "nav-links"}
           onClick={() => setIsMobile(false)}
