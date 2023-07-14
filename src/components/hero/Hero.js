@@ -45,15 +45,14 @@ const Hero = () => {
               </p>
               <p className="mydescription">
                 A passionate web Developer from Kitchener, Ontario with 2 years
-                of experience in React JS with excellent and reponsive web
+                of experience as Full Stack Web Developer with excellent and responsive web
                 design skills.
               </p>
               <button className="contactmebtn">
                 <FontAwesomeIcon icon={faAddressBook} className="px-3" />
                 Contact Me
               </button>
-//images/Resume_new.pdf
-              <a href="" className="btn btn_download">
+              <a href="images/Resume_new.pdf" className="btn btn_download">
                 Download Resume
               </a>
             </div>
