@@ -69,6 +69,24 @@ const MySkills = () => {
           </div>
         </div>
         </div>
+
+ <div className="progress">
+          <span className="skill">
+            GraphQL <i className="val">90%</i>
+          </span>
+          <div className="progress-bar-wrap">
+            <div
+              className="progress-bar"
+              role="progressbar"
+              aria-valuenow="90"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              style={{ width: "90%" }}
+            ></div>
+          </div>
+        </div>
+        </div>
+              
         <div className="col-lg-6 skill_right">
           <div className="progress">
             <span className="skill">
