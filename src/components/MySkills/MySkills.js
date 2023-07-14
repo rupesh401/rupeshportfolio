@@ -85,7 +85,7 @@ const MySkills = () => {
             ></div>
           </div>
         </div>
-        </div>
+      
               
         <div className="col-lg-6 skill_right">
           <div className="progress">
@@ -105,7 +105,7 @@ const MySkills = () => {
           </div>
           <div className="progress">
             <span className="skill">
-              REACT <i className="val">70%</i>
+              REACT.JS <i className="val">70%</i>
             </span>
             <div className="progress-bar-wrap">
               <div
@@ -149,7 +149,7 @@ const MySkills = () => {
             ></div>
           </div>
         </div>
-        </div>
+        
 
               <div className="progress">
           <span className="skill">
@@ -166,7 +166,7 @@ const MySkills = () => {
             ></div>
           </div>
         </div>
-        </div>
+        
 
               <div className="progress">
           <span className="skill">
@@ -183,7 +183,7 @@ const MySkills = () => {
             ></div>
           </div>
         </div>
-        </div>
+    
                 
           <div className="progress">
             <span className="skill">
