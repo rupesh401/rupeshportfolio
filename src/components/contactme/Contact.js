@@ -40,7 +40,7 @@ const Contact = () => {
           <div className="contactleft_item">
             <FontAwesomeIcon className="fa-3x" icon={faLocationArrow} />
             <h3 className="contactleft_title">Address</h3>
-            <p className="contactleft_desc">262 Kingswood Dr</p>
+            <p className="contactleft_desc">Kitchener, Ontario, Canada</p>
           </div>
           <div className="contactleft_item">
             <FontAwesomeIcon className="fa-3x" icon={faEnvelope} />
