@@ -52,7 +52,7 @@ const Hero = () => {
                 <FontAwesomeIcon icon={faAddressBook} className="px-3" />
                 Contact Me
               </button>
-              <a href="images/Resume_new.pdf" className="btn btn_download">
+              <a href="images/Resume_new.docx" className="btn btn_download">
                 Download Resume
               </a>
             </div>
